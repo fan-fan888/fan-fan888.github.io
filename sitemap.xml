@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://example.com/2021/10/21/vscode-code/</loc>
+    
+    <lastmod>2021-10-22</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://example.com/2021/10/15/fanfan/</loc>
     
     <lastmod>2021-10-21</lastmod>
@@ -12,6 +19,13 @@
     <loc>http://example.com/2021/10/15/hello-world/</loc>
     
     <lastmod>2021-10-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/link/index.html</loc>
+    
+    <lastmod>2021-10-12</lastmod>
     
   </url>
   
@@ -30,7 +44,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/index.html</loc>
+    <loc>http://example.com/messageboard/index.html</loc>
     
     <lastmod>2021-10-12</lastmod>
     
@@ -44,7 +58,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/messageboard/index.html</loc>
+    <loc>http://example.com/tags/index.html</loc>
     
     <lastmod>2021-10-12</lastmod>
     
@@ -58,21 +72,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/Gallery/ohmygirl/index.html</loc>
-    
-    <lastmod>2021-10-12</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://example.com/link/index.html</loc>
-    
-    <lastmod>2021-10-12</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://example.com/Gallery/wallpaper/index.html</loc>
+    
+    <lastmod>2021-10-12</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/Gallery/ohmygirl/index.html</loc>
     
     <lastmod>2021-10-12</lastmod>
     
@@ -81,7 +88,7 @@
 
   <url>
     <loc>http://example.com/</loc>
-    <lastmod>2021-10-21</lastmod>
+    <lastmod>2021-10-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>

@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-10-21T09:29:11.262Z</updated>
+  <updated>2021-10-22T02:06:35.868Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vsCode自定义代码块</title>
+    <link href="http://example.com/2021/10/21/vscode-code/"/>
+    <id>http://example.com/2021/10/21/vscode-code/</id>
+    <published>2021-10-21T09:49:21.428Z</published>
+    <updated>2021-10-22T02:06:35.868Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="vscode自定义代码块"><a href="#vscode自定义代码块" class="headerlink" title="vscode自定义代码块"></a>vscode自定义代码块</h1><h2 id="1-打开用户代码片段"><a href="#1-打开用户代码片段" class="headerlink" title="1.打开用户代码片段"></a>1.打开用户代码片段</h2><p>文件 -》首选项 -》用户片段   <strong>或者</strong>   左下角齿轮设置 -》 用户代码片段</p><h2 id="2-选择-新建全局代码片段文件"><a href="#2-选择-新建全局代码片段文件" class="headerlink" title="2.选择 新建全局代码片段文件"></a>2.选择 新建全局代码片段文件</h2><p><img src="/.com//../../img/vscode-code-1.png" alt="新建全局代码片段文件"></p><!--  --><h2 id="3-输入代码段文件名，例如：vue-json-点击回车"><a href="#3-输入代码段文件名，例如：vue-json-点击回车" class="headerlink" title="3.输入代码段文件名，例如：vue.json 点击回车"></a>3.输入代码段文件名，例如：vue.json 点击回车</h2><h2 id="4-输入代码片段"><a href="#4-输入代码片段" class="headerlink" title="4.输入代码片段"></a>4.输入代码片段</h2><p>如下：直接全选复制粘贴<br>prefix是指：快捷键提示名</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">&quot;demo&quot;: &#123;</span><br><span class="line">&quot;prefix&quot;: &quot;vue&quot;,</span><br><span class="line">&quot;body&quot;: [</span><br><span class="line">&quot;&lt;template&gt;&quot;,</span><br><span class="line">&quot; &lt;div class=\&quot;$1\&quot;&gt;&quot;,</span><br><span class="line">&quot; &quot;,</span><br><span class="line">&quot; &lt;/div&gt;&quot;,</span><br><span class="line">&quot;&lt;/template&gt;&quot;,</span><br><span class="line">&quot; &quot;,</span><br><span class="line">&quot;&lt;script&gt;&quot;,</span><br><span class="line">&quot;export default &#123;&quot;,</span><br><span class="line">&quot; data () &#123;&quot;,</span><br><span class="line">&quot; return &#123;&quot;,</span><br><span class="line">&quot; &#125;&quot;,</span><br><span class="line">&quot; &#125;&quot;,</span><br><span class="line">&quot;&#125;&quot;,</span><br><span class="line">&quot;&lt;/script&gt;&quot;,</span><br><span class="line">&quot; &quot;,</span><br><span class="line">&quot;&lt;style scoped lang = \&quot;less\&quot;&gt;&quot;,</span><br><span class="line">&quot; &quot;,</span><br><span class="line">&quot;&lt;/style&gt;&quot;</span><br><span class="line">],</span><br><span class="line">&quot;description&quot;: &quot;&quot;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="5-直接输入vue则出现提示"><a href="#5-直接输入vue则出现提示" class="headerlink" title="5. 直接输入vue则出现提示"></a>5. 直接输入vue则出现提示</h2><p><img src="/.com//../../img/vscode-code-2.png" alt="输入vue"><br><img src="/.com//../../img/vscode-code-3.png" alt="双击展示结果"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;vscode自定义代码块&quot;&gt;&lt;a href=&quot;#vscode自定义代码块&quot; class=&quot;headerlink&quot; title=&quot;vscode自定义代码块&quot;&gt;&lt;/a&gt;vscode自定义代码块&lt;/h1&gt;&lt;h2 id=&quot;1-打开用户代码片段&quot;&gt;&lt;a href=&quot;#1-打</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>blog命令</title>
