@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>React控制Table横向滚动条的位置</title>
+      <link href="/2021/12/14/react-table-scrollLeft/"/>
+      <url>/2021/12/14/react-table-scrollLeft/</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-Table表格加上ref-和-scroll"><a href="#1-Table表格加上ref-和-scroll" class="headerlink" title="1.Table表格加上ref 和 scroll"></a>1.Table表格加上ref 和 scroll</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;Table</span><br><span class="line">   ref=&#123;c =&gt; &#123; this.finishedProductTable = c; &#125;&#125;</span><br><span class="line">   bordered</span><br><span class="line">   dataSource=&#123;[]&#125;</span><br><span class="line">   rowKey=&#123;(record, index) =&gt; index&#125;</span><br><span class="line">   pagination=&#123;false&#125;</span><br><span class="line">   columns=&#123;[]&#125;</span><br><span class="line">   scroll=&#123;&#123; x: true &#125;&#125;</span><br><span class="line"> /&gt;</span><br></pre></td></tr></table></figure><h2 id="2-找到表格的DOM节点，给ant-table-body赋值scrollLeft，offset可以自己计算出宽度，我这里暂时写死了500"><a href="#2-找到表格的DOM节点，给ant-table-body赋值scrollLeft，offset可以自己计算出宽度，我这里暂时写死了500" class="headerlink" title="2. 找到表格的DOM节点，给ant-table-body赋值scrollLeft，offset可以自己计算出宽度，我这里暂时写死了500"></a>2. 找到表格的DOM节点，给ant-table-body赋值scrollLeft，offset可以自己计算出宽度，我这里暂时写死了500</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">componentDidMount() &#123;</span><br><span class="line">  const offsetLeft = 500;</span><br><span class="line">  this.locationTableScrollLeft(offsetLeft);</span><br><span class="line">&#125;</span><br><span class="line">// 定位表格横向滚动条</span><br><span class="line">locationTableScrollLeft(offsetLeft) &#123;</span><br><span class="line">  const table = ReactDOM.findDOMNode(this.finishedProductTable);</span><br><span class="line">  const tableBody = table.querySelector(&#x27;.ant-table-body&#x27;);</span><br><span class="line">  tableBody.scrollLeft = offsetLeft;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>vsCode自定义代码块</title>
       <link href="/2021/10/21/vscode-code/"/>
       <url>/2021/10/21/vscode-code/</url>
